@@ -1,0 +1,13 @@
+.containerNumbers {
+  padding: 1em 5rem 1em 5rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.boxNumbers {
+  background-color: #ffff;
+  padding: 1em 1em 1em 1em;
+  border: 1px #000 solid;
+}

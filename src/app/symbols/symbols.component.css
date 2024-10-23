@@ -1,0 +1,16 @@
+.containerSymbols {
+  padding: 1em 5rem 1em 5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.boxSymbols {
+  background-color: #ffff;
+  padding: 2em 8em 2em 8em;
+  border: 1px #000 solid;
+}
+
+.redSymbol {
+  color: red;
+}

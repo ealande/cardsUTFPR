@@ -1,0 +1,30 @@
+.containerCards {
+  display: flex;
+  padding: 1em 5rem 1em 5rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.boxCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #ffff;
+  border: 1px #000 solid;
+  height: 200px;
+  width: 125px;
+  box-shadow: 10px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.numberInside {
+  font-size: 20px;
+  margin: 8px 8px 8px 8px;
+}
+
+.symbolInside {
+  font-size: 50px;
+  margin: 0px 0px 72px 50px;
+}
