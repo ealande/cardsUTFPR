@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-numbers',
-  standalone: true,
-  imports: [],
   templateUrl: './numbers.component.html',
-  styleUrl: './numbers.component.css'
+  styleUrls: ['./numbers.component.css'],
+  standalone: true,
 })
 export class NumbersComponent {
+  @Output() numberSelected = new EventEmitter<string>();
 
+  public modifyNumber(i: string) {
+    this.numberSelected.emit(i);
+  }
 }

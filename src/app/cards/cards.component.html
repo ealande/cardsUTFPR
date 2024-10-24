@@ -1,6 +1,14 @@
-<div class="containerCards">
-  <div class="boxCards">
-    <span class="numberInside">2</span>
-    <span class="symbolInside">&spades;</span>
+@if (card.number && card.symbol != null) {
+  <div class="containerCards">
+    <div
+      [ngClass]="
+        card.symbol === '♦' || card.symbol === '♥'
+          ? 'boxCards redSymbol'
+          : 'boxCards blackSymbol'
+      "
+    >
+      <span class="numberInside">{{ card.number }}</span>
+      <span class="symbolInside">{{ card.symbol }}</span>
+    </div>
   </div>
-</div>
+}

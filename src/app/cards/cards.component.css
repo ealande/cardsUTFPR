@@ -28,3 +28,11 @@
   font-size: 50px;
   margin: 0px 0px 72px 50px;
 }
+
+.redSymbol {
+  color: red;
+}
+
+.blackSymbol {
+  color: black;
+}

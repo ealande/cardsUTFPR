@@ -1,13 +1,13 @@
 .containerFigures {
   padding: 1em 5rem 1em 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .boxFigures {
   background-color: #ffff;
-  padding: 1em 1em 1em 1em;
+  padding: 1.5em 1.5em 1.5em 1.5em;
   border: 1px #000 solid;
 }

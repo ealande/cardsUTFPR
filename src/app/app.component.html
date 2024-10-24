@@ -1,5 +1,8 @@
 <router-outlet />
-<app-symbols/>
-<app-numbers/>
-<app-figures/>
-<app-cards/>
+<app-symbols (symbolSelected)="updateSymbol($event)" />
+<app-numbers (numberSelected)="updateNumber($event)"></app-numbers>
+<app-figures (numberSelected)="updateNumber($event)" />
+<app-cards
+  [numberShow]="selectedNumber"
+  [symbolShow]="selectedSymbol"
+></app-cards>
